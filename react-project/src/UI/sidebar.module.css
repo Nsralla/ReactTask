@@ -1,0 +1,35 @@
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #1c5bc9;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #242f49;;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    background-color: #B51A2B;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 90%;
+    text-align: center;
+}
+
+.linkdiv{
+        border: 1px solid #eef1f6;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+
+/*  */
+
