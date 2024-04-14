@@ -7,7 +7,6 @@ import classes from './CardForm.module.css';
 export default function CardForm() {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
-
     const [isSendindData, setIsSentingData] = useState(false);
     const [error, setError] = useState('');
     const [isOnline, setIsOnline] = useState(true);
@@ -26,8 +25,6 @@ export default function CardForm() {
         window.removeEventListener("offline", goOffline);
         };
     }, []);
-
-    // wrap it with use effect
 
     const handleSubmit = async (e) => {
         e.preventDefault();
